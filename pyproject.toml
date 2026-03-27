@@ -1,0 +1,19 @@
+[project]
+name = "hybrid-retrieval-search-implementation"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "Harshit",email = "workwithvrz@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "qdrant-client (>=1.17.1,<2.0.0)",
+    "datasets (>=4.8.4,<5.0.0)",
+    "ranx (>=0.3.21,<0.4.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
